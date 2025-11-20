@@ -39,7 +39,7 @@ Developed using:
 ## 🗄️ Data Model (Star Schema)
 
 **Fact Table**  
-`SuperStoreOrders` → Sales, Profit, Discount, Shipping Cost, Quantity
+`sales_data` → Sales, Profit, Discount, Shipping Cost, Quantity
 
 **Dimension Table**  
 `DateTable` → Date, MonthName, Year, Quarter, Week, Calendar labels
@@ -48,7 +48,6 @@ Developed using:
 DateTable[Date] (1) → (*) sales_data[order_date]
 Cross-filter: Both
 
-yaml
 
 
 ---
@@ -136,7 +135,7 @@ sales-insights-project/
 └── images/
 ├─ *.png (screenshots)
 
-yaml
+
 
 ---
 
@@ -157,17 +156,5 @@ Data Analyst | Aspiring Data Engineer
 
 🔗 LinkedIn: https://www.linkedin.com/in/arunpandiyan-thanasekaran/  
 💻 GitHub: https://github.com/nameisarun  
-
----
-
-## 🚀 Conclusion
-
-This project showcases:
-
-✔ Practical business analytics  
-✔ Technical BI implementation  
-✔ End-to-end data lifecycle ownership  
-
-A complete portfolio-ready project demonstrating real-world impact 🔥
 
 ---
