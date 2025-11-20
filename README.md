@@ -39,7 +39,7 @@ Developed using:
 ## 🗄️ Data Model (Star Schema)
 
 **Fact Table**  
-`sales_data` → Sales, Profit, Discount, Shipping Cost, Quantity
+`SuperStoreOrders` → Sales, Profit, Discount, Shipping Cost, Quantity
 
 **Dimension Table**  
 `DateTable` → Date, MonthName, Year, Quarter, Week, Calendar labels
@@ -49,7 +49,7 @@ DateTable[Date] (1) → (*) sales_data[order_date]
 Cross-filter: Both
 
 yaml
-Copy code
+
 
 ---
 
@@ -137,7 +137,6 @@ sales-insights-project/
 ├─ *.png (screenshots)
 
 yaml
-Copy code
 
 ---
 
