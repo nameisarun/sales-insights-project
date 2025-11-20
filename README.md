@@ -45,12 +45,51 @@ Developed using:
 `DateTable` → Date, MonthName, Year, Quarter, Week, Calendar labels
 
 🔗 Relationship:  
-DateTable[Date] (1) → (*) sales_data[order_date]
+DateTable[Date] (1) → (*) SuperStoreOrders[order_date]
 Cross-filter: Both
 
 
 
 ---
+
+
+## 🧩 SQL Results
+
+### KPI Metrics
+![SQL KPIs - Total Sales](Images/sql_total_sales.png)
+![SQL KPIs - Profit](Images/sql_total_profits.png)
+![SQL KPIs - Orders](Images/sql_total_orders.png)
+
+### Top Products Analysis
+![Top 10 Products - Sales](Images/sql_top10_sales.png)
+![Top 10 Products - Profit](Images/sql_top10_profits.png)
+
+### Category Performance
+![Category Revenue](Images/sql_category_subcategory_sales.png)
+
+### Regional Performance
+![Regional Revenue](Images/sql_region_revenue.png)
+![Regional Profit](Images/sql_region_profit.png)
+
+### Monthly Trend
+![Monthly Sales Trend](Images/sql_monthly_sales_trend.png)
+
+### Segment Performance
+![Segment Profit](Images/sql_segment_profit.png)
+
+## 📊 Power BI Dashboards
+
+### Page 1 — Sales Overview
+![Sales Overview](Images/bi_sales_overview.png)
+
+### Page 2 — Product & Category Insights
+![Product Insights](Images/bi_product_category_insights.png)
+
+### Page 3 — Customer & Profitability Analytics
+![Customer & Profitability](Images/bi_customer_profitability_analytics.png)
+
+---
+
 
 ## 🔎 Key Business Insights
 
@@ -78,10 +117,10 @@ Cross-filter: Both
 
 sales-insights-project/
 │-- Sales_Insights_Dashboard.pbix
-│-- load_sales_data_mysql.py
+│-- load_SuperStoreOrders_mysql.py
 │-- sql_queries.sql
 │-- README.md
-└── images/
+└── Images/
 ├─ *.png (screenshots)
 
 
@@ -105,5 +144,3 @@ Data Analyst | Aspiring Data Engineer
 
 🔗 LinkedIn: https://www.linkedin.com/in/arunpandiyan-thanasekaran/  
 💻 GitHub: https://github.com/nameisarun  
-
----
