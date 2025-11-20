@@ -39,7 +39,7 @@ Developed using:
 ## 🗄️ Data Model (Star Schema)
 
 **Fact Table**  
-`sales_data` → Sales, Profit, Discount, Shipping Cost, Quantity
+`SuperStoreOrders` → Sales, Profit, Discount, Shipping Cost, Quantity
 
 **Dimension Table**  
 `DateTable` → Date, MonthName, Year, Quarter, Week, Calendar labels
@@ -49,57 +49,6 @@ DateTable[Date] (1) → (*) sales_data[order_date]
 Cross-filter: Both
 
 
-
----
-
-## 🧩 SQL Validation — Evidence Screenshots
-
-### KPIs
-| Metric | Output |
-|--------|--------|
-| Total Sales | ![](images/sql_total_sales.png) |
-| Total Profits | ![](images/sql_total_profits.png) |
-| Total Orders | ![](images/sql_total_orders.png) |
-
----
-
-### Top Product Insights
-![](images/sql_top_10_products_by_profits.png)
-![](images/sql_top_10_product_by_sales.png)
-
----
-
-### Revenue by Category & Sub-category
-![](images/sql_sales_by_category_and_subcategory.png)
-
----
-
-### Regional Revenue & Profit Performance
-| Revenue | Profit |
-|--------|-------|
-| ![](images/sql_revenue_by_region.png) | ![](images/sql_profit_by_region.png) |
-
----
-
-### Monthly Sales Trend
-![](images/sql_monthly_sales_trend.png)
-
----
-
-## 📌 Power BI Dashboards
-
-### 📍 Page 1 — Sales Overview
-![](images/BI_sales_overview.png)
-
----
-
-### 💼 Page 2 — Product & Category Insights
-![](images/BI_Product_&_Category_Insights.png)
-
----
-
-### 👥 Page 3 — Customer & Profitability Analytics
-![](images/BI_Customer_&_Profitability_Analytics.png)
 
 ---
 
